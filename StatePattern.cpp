@@ -18,7 +18,7 @@ class OffState;
 //machine "Has A" state
 //another way of doing this would be have
 //machine pre-store all the state
-//so we are not create and destroying them all the time
+//so we are not creating and destroying them all the time
 class Machine
 {
 public:
