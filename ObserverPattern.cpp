@@ -7,6 +7,7 @@
 using namespace std;
 
 //Observer Design Pattern
+//This is purely "Has A"
 //When you need many other objects to receive
 //an update when anther object changes
 
@@ -15,6 +16,7 @@ class StockObserver;
 class StockPublisher
 {
 private:
+    //the publisher "Has A" list of observers
     vector<StockObserver> vec;
     double ibmPrice;
 
